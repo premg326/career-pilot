@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPilot</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>CareerPilot</span>
+        </div>
+        <button id="theme-toggle" class="btn-icon">
+            <i class="fas fa-moon"></i> Dark Mode
+        </button>
+    </header>
+
+    <!-- Main Dashboard Grid -->
+    <main class="dashboard">
+        
+        <!-- 1. Motivational Quote -->
+        <section class="card quote-card">
+            <h2><i class="fas fa-quote-left"></i> Daily Motivation</h2>
+            <p id="quote-text">Loading inspiration...</p>
+            <p id="quote-author" class="author"></p>
+        </section>
+
+        <!-- 2. Daily Progress Tracker (Calculated automatically) -->
+        <section class="card progress-card">
+            <h2><i class="fas fa-chart-pie"></i> Daily Progress</h2>
+            <div class="progress-container">
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-fill" style="width: 0%">0%</div>
+                </div>
+                <p id="progress-text">Complete tasks to see progress!</p>
+            </div>
+        </section>
+
+        <!-- 3. To Do List -->
+        <section class="card todo-card">
+            <h2><i class="fas fa-check-circle"></i> To Do List</h2>
+            <div class="input-group">
+                <input type="text" id="todo-input" placeholder="Add a new task...">
+                <button id="add-todo-btn"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul id="todo-list">
+                <!-- Items added via JS -->
+            </ul>
+        </section>
+
+        <!-- 4. Internship Tracker -->
+        <section class="card tracker-card">
+            <h2><i class="fas fa-briefcase"></i> Internships</h2>
+            <div class="tracker-input">
+                <input type="text" id="intern-company" placeholder="Company Name">
+                <select id="intern-status">
+                    <option value="Applied">Applied</option>
+                    <option value="Interview">Interview</option>
+                    <option value="Rejected">Rejected</option>
+                    <option value="Offer">Offer</option>
+                </select>
+                <button onclick="addItem('intern')">Add</button>
+            </div>
+            <div class="table-responsive">
+                <table id="intern-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 5. Hackathon Tracker -->
+        <section class="card tracker-card">
+            <h2><i class="fas fa-laptop-code"></i> Hackathons</h2>
+            <div class="tracker-input">
+                <input type="text" id="hack-name" placeholder="Event Name">
+                <select id="hack-status">
+                    <option value="Upcoming">Upcoming</option>
+                    <option value="Ongoing">Ongoing</option>
+                    <option value="Submitted">Submitted</option>
+                    <option value="Won">Won</option>
+                </select>
+                <button onclick="addItem('hack')">Add</button>
+            </div>
+            <div class="table-responsive">
+                <table id="hack-table">
+                    <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 6. Learning Goals -->
+        <section class="card goals-card">
+            <h2><i class="fas fa-bullseye"></i> Learning Goals</h2>
+            <div class="input-group">
+                <input type="text" id="goal-input" placeholder="Learn a new skill (e.g., Python)">
+                <button id="add-goal-btn"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul id="goal-list">
+                <!-- Goals added via JS -->
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CareerPilot | Created by Prem</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
