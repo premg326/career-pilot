@@ -22,6 +22,24 @@ CareerPilot is a student productivity and career management dashboard designed t
 
 https://premg326.github.io/career-pilot/
 
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### ToDo List
+
+![ToDo](screenshots/todo.png)
+
+### Internship Tracker
+
+![Internships](screenshots/internships.png)
+
+### Dark Mode
+
+![Dark Mode](screenshots/darkmode.png)
+
 ## Author
 
 Prem Kumar
