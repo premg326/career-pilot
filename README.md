@@ -36,6 +36,13 @@ https://premg326.github.io/career-pilot/
 ### Dark Mode
 ![Dark Mode](darkmode.png.png)
 
+## Future Improvements
+
+- Skill Tracker
+- Study Streak Counter
+- Deadline Reminder System
+- Resume Builder Integration
+
 ## Author
 
 Prem Kumar
