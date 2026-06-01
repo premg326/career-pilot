@@ -25,20 +25,16 @@ https://premg326.github.io/career-pilot/
 ## Screenshots
 
 ### Home Page
-
-![Home](screenshots/home.png)
+![Home](home.png.png)
 
 ### ToDo List
-
-![ToDo](screenshots/todo.png)
+![ToDo](todo.png.png)
 
 ### Internship Tracker
-
-![Internships](screenshots/internships.png)
+![Internships](internships.png.png)
 
 ### Dark Mode
-
-![Dark Mode](screenshots/darkmode.png)
+![Dark Mode](darkmode.png.png)
 
 ## Author
 
