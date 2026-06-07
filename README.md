@@ -45,6 +45,10 @@ https://premg326.github.io/career-pilot/
 ### Dark Mode
 ![Dark Mode](darkmode.png.png)
 
+### Updated Dashboard
+
+![Updated Dashboard](dashboard-updated.png)
+
 ## Future Improvements
 
 - Skill Tracker
