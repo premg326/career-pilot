@@ -2,6 +2,14 @@
 
 CareerPilot is a student productivity and career management dashboard designed to help students organize tasks, internships, hackathons, and learning goals in one place.
 
+## Problem Statement
+
+Students struggle to manage internships, hackathons, tasks and learning goals from different platforms.
+
+## Solution
+
+CareerPilot provides a centralized dashboard for managing productivity, career opportunities and learning progress.
+
 ## Features
 
 - To-Do List
