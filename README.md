@@ -19,6 +19,7 @@ CareerPilot provides a centralized dashboard for managing productivity, career o
 - Daily Progress Tracking
 - Dark Mode Support
 - Local Storage Support
+- Upcoming Deadlines
 
 ## Tech Stack
 
